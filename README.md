@@ -4,11 +4,9 @@ Simulador em C que usa `hardware_specs.h` e `hardware_specs.c` fornecidos pelo p
 
 ## Integrantes e módulos
 
-- **Bruno Aparecido Almeida Rocha - RA 821591**: `mmu.c/.h` - tradução VPN/offset e RAM.
-- **Danilo Mitsunari Regatieri - RA 831830**: `wsclock.c/.h` - WSClock e Swap térmico.
-- **Isadora Berbel Kamada Ribeiro - RA 844978**: `auditoria.c/.h` - parser, auditoria, mapa ASCII e métricas.
-- `main.c`: integração dos módulos.
-- `simulator.h`: estruturas compartilhadas.
+- **Bruno Aparecido Almeida Rocha - RA 821591**: - tradução VPN/offset e RAM.
+- **Danilo Mitsunari Regatieri - RA 831830**: - WSClock e Swap térmico.
+- **Isadora Berbel Kamada Ribeiro - RA 844978**: - parser, auditoria, mapa ASCII e métricas.
 
 A descrição detalhada está em `DIVISAO_TRABALHO.md`.
 
