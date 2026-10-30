@@ -3,7 +3,6 @@
 
 #include "simulator.h"
 
-
 uint64_t auditoria_checksum_mapping(const simulator_t *sim);
 bool auditoria_verify_consistency(const simulator_t *sim);
 void auditoria_audit_state(const simulator_t *sim, const char *reason);

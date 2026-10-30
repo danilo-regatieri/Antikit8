@@ -288,8 +288,7 @@ void auditoria_print_summary(const simulator_t *sim) {
                         ? 0.0
                         : sim->frag_sum_percent / (double)sim->frag_samples;
 
-   
-    printf("             RESUMO FINAL - ANTIKIT-8\n");
+    printf("RESUMO FINAL - ANTIKIT-8\n");
     printf("Total de acessos do trace:          %" PRIu64 "\n", sim->trace_accesses);
     printf("Acessos globais contabilizados MMU: %" PRIu64 "\n", sim->hw.global_access_count);
     printf("Total global de Page Faults:        %" PRIu64 "\n", sim->total_page_faults);
