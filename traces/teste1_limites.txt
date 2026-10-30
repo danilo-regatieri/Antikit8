@@ -1,0 +1,6 @@
+# Deve produzir VPN 1 offset 8191
+1 1 R 12287
+# Deve produzir VPN 2 offset 0
+2 1 R 12288
+# Ultimo byte de 1 MB: VPN 170 offset 4095
+3 1 R 1048575
